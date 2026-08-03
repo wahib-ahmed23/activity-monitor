@@ -17,6 +17,6 @@ class Activity(Base):
 
     start_time = Column(DateTime)
 
-    end_time = Column(DateTime)
+    end_time = Column(DateTime, nullable=True)
 
-    duration = Column(Integer)
+    duration = Column(Integer, nullable=True)
